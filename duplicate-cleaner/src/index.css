@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Habilita variante dark basada en clase */
+@custom-variant dark (&:is(.dark *));
+
+/* Scrollbar sutil */
+* { scrollbar-width: thin; scrollbar-color: #cbd5e1 transparent; }
+*::-webkit-scrollbar { width: 6px; height: 6px; }
+*::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 999px; }
+.dark *::-webkit-scrollbar-thumb { background: #475569; }

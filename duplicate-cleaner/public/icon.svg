@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#6366f1"/>
+  <!-- Folder base -->
+  <rect x="80" y="180" width="352" height="240" rx="24" fill="#fff" opacity="0.95"/>
+  <!-- Folder tab -->
+  <path d="M80 180 Q80 150 110 150 L200 150 L230 180 Z" fill="#fff" opacity="0.95"/>
+  <!-- Magnifier circle -->
+  <circle cx="230" cy="295" r="70" fill="none" stroke="#6366f1" stroke-width="28"/>
+  <!-- Magnifier handle -->
+  <line x1="282" y1="347" x2="340" y2="405" stroke="#6366f1" stroke-width="28" stroke-linecap="round"/>
+  <!-- Check marks (duplicates found) -->
+  <circle cx="174" cy="260" r="12" fill="#10b981"/>
+  <circle cx="174" cy="310" r="12" fill="#f59e0b"/>
+</svg>
